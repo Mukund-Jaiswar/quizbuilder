@@ -4,6 +4,13 @@
 /node_modules
 /.pnp
 .pnp.js
+/.firebase
+/src/reportWebVitals.js
+/src/setupTests.js
+/.firebaserc
+/firebase.json
+/.gitignore
+
 
 # testing
 /coverage
