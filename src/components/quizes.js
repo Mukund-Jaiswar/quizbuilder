@@ -22,8 +22,6 @@ function Quizes() {
       };
     },[]);
 
-    console.log(data)
-
     return (
       <div className="quizes-container">
         <h3>All Quizes</h3>

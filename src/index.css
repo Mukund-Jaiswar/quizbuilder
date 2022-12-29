@@ -184,7 +184,8 @@ nav svg {
 
 .quiz-desc{
   font-weight: 400;
-  color: var(--clr-grey-5)
+  color: var(--clr-grey-5);
+  overflow-wrap: break-word;
 }
 
 .quiz-desc span{

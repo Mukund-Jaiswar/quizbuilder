@@ -25,6 +25,7 @@ function App() {
             <Route index element={<Quizes/>}></Route>
             <Route path="/GoogleIn" element={<GoogleIn/>}></Route>
             <Route path="/CreateQuiz" element={<CreateQuiz/>}></Route>
+            {isModalOpen&&<Route path="/MyQuizes" element={<Modal/>}></Route>}
             <Route path="/MyQuizes" element={<MyQuiz/>}></Route>
           </Route>
           <Route path="/Startquiz" element={<StartQuiz/>}></Route>
